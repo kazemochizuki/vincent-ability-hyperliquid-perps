@@ -1,0 +1,40 @@
+{
+  "name": "@kazemochizuki/hyperliquid-perps",
+  "version": "0.0.1",
+  "description": "A Vincent ability that trades perps in hyperliquid.",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "dist/**",
+    "*.md"
+  ],
+  "scripts": {
+    "build": "nx build"
+  },
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^8.1.0",
+    "@lit-protocol/lit-node-client": "^7.3.1",
+    "@lit-protocol/pkp-ethers": "^7.3.1",
+    "@lit-protocol/types": "^7.3.0",
+    "@lit-protocol/vincent-ability-sdk": "^2.0.0",
+    "@lit-protocol/vincent-example-policy-counter": "workspace:*",
+    "@lit-protocol/vincent-scaffold-sdk": "^2.0.0",
+    "@nktkas/hyperliquid": "^0.25.4",
+    "ethers": "5.8.0",
+    "tslib": "2.8.1",
+    "ws": "^8.18.3",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@lit-protocol/esbuild-plugin-polyfill-node": "^0.3.0",
+    "esbuild": "0.19.12",
+    "ipfs-only-hash": "4.0.0"
+  },
+  "peerDependencies": {
+    "@lit-protocol/vincent-app-sdk": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -49,7 +49,7 @@
     "libsDir": "packages"
   },
   "release": {
-    "projects": ["ability-native-send", "policy-counter", "test-e2e"],
+    "projects": ["ability-native-send", "policy-counter", "test-e2e", "hyperliquid-perps"],
     "projectsRelationship": "independent",
     "releaseTagPattern": "vincent/{projectName}/{version}",
     "versionPlans": true,
