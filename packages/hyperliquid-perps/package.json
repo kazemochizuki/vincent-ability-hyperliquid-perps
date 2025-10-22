@@ -1,6 +1,6 @@
 {
   "name": "@kazemochizuki/hyperliquid-perps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vincent ability that trades perps in hyperliquid.",
   "main": "./dist/src/index.js",
   "module": "./dist/src/index.js",
